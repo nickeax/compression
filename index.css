@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --sml: 2px;
+    --smlMed: 5px;
+    --med: 10px;
+    --medLrg: 15px;
+    --lrg: 25;
+
+    --mainHue: 30;
+    --mainSat: 50%;
+    --mainLig: 50%;
+
+    --mainCol: hsl(var(--mainHue), var(--mainSat), var(--mainLig));
+    --mainCompCol: hsl(calc(var(--mainHue) + 180), var(--mainSat), var(--mainLig))
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: var(--mainColour);
+}
+
+header {
+    background-color: var(--mainCompCol);
+}
+
+.hcontainer {
+    width: 60%;
+    margin: auto;
+}
+
+.container {
+    background-color: var(--mainCol);
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.container p {
+    color: var(--mainCompCol);
+}
