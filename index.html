@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,60 @@
     <script src="index.js" type='module' defer></script>
     <title>Compression Exploration</title>
 </head>
+
 <body>
     <header>
         <div class="hcontainer">
-            <h2>Compresssion Exploration</h2>
+            <div class="menu menu-top">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">articles</a></li>
+                    <li><a href="#">snippets</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <div class="container">
+        <div class="article">
+            <div class="article-header">
+                <div class="article-sub">complete guide</div>
+                <div class="article-title">JavaScript Lessons</div>
+                <div class="article-sub">introduction</div>
+            </div>
+            <div class="article-content">
+                JavaScript mainly is used to add functionality to Websites. The history is interesting, but that won't
+                be discussed here as the focus is on coding.
 
+                <h3>SOME THINGS JAVASCRIPT CAN DO:</h3>
+                <span class="point">Manipulate the style of HTML elements (DOM manipulation)</span>
+                <span class="point">Perform processing on data and other site specific variables</span>
+                <span class="point">Check form data before it's submitted</span>
+                <span class="point">Add and remove HTML elements from the DOM</span>
+
+
+                <h3>HOW DOES JAVASCRIPT 'RUN'?</h3>
+                <span class="point">When JavaScript is part of Website, it is downloaded into the local machine memory and an interpreter in
+                the browser 'runs' the JavaScript code
+                 are two phases involved in the execution of the JavaScript code on the local machine</span>
+
+                <span class="point point-nested">Phase 1 one is for the compilation of the code, where variables and functions are
+                    assessed</span>
+                    <span class="point point-nested">Phase 2 is the actual interpretation of the code by the
+                    JavaScript 'engine'</span>
+
+
+                    Each browser has its own JavaScript 'engine', for instance Chrome uses an open source module called
+                    V8
+                    (the V8 source code was used in the development of the NodeJS platform)
+
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="fcontainer">
+            footer
+        </div>
+    </footer>
 </body>
+
 </html>
